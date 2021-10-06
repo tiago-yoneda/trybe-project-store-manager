@@ -1,24 +1,13 @@
-### Termos e acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe
-
-# Boas vindas ao repositório do projeto Store Manager!
-
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por Slack! #vqv 🚀
-
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um Pull Request para colocar seus códigos.
+### Aviso
+Projeto realizado durante módulo de back-end do curso da Trybe.
 
 ---
 
 # Sumário
 
 - [Habilidades](#habilidades)
-- [Entregáveis](#entregáveis)
-  - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
+- [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
   - [Desenvolvimento](#desenvolvimento)
-  - [Data de entrega](#data-de-entrega)
-- [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
-  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
   - [Durante o desenvolvimento](#durante-o-desenvolvimento)
 - [Como desenvolver](#como-desenvolver)
   - [Padrões e conexões](#padrões-e-conexões)
@@ -64,16 +53,9 @@ Nesse projeto, você será capaz de:
 - Entender e aplicar os padrões REST;
 - Escrever assinaturas para APIs intuitivas e facilmente entendíveis.
 
-# Entregáveis
-
-Para entregar o seu projeto você deverá criar um Pull Request neste repositório.
-
-Lembre-se que você pode consultar nosso conteúdo sobre
-[Git & GitHub](https://course.betrybe.com/intro/git/) sempre que precisar!
-
 ---
 
-## O que deverá ser desenvolvido
+# O que deverá ser desenvolvido
 
 Você vai desenvolver sua primeira API utilizando a arquitetura MSC!
 
@@ -107,68 +89,6 @@ Você deve utilizar o banco MongoDB para a gestão de dados. Além disso, a API 
 - Quando estiver na dúvida sobre qual status HTTP utilizar, você pode consultar sites como o [httpstatuses.com](https://httpstatuses.com/), [restapitutorial.com](https://www.restapitutorial.com/httpstatuscodes.html) ou a [documentação sobre o assunto no MDN](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status). Com o tempo, você vai lembrar com facilidade o significado dos códigos mais comuns.
 
 - Para realizar a validação dos dados, você pode utilizar middlewares como [`Joi`](https://www.npmjs.com/package/@hapi/joi) ou o [`Expresso Validator`](https://www.npmjs.com/package/@expresso/validator). Caso prefira, você também pode realizar a validação de forma manual.
-
----
-
-## Data de Entrega
-
-  - Serão `3` dias de projeto.
-  - Data de entrega para avaliação final do projeto: `16/07/2021 - 14:00h`.
-
----
-
-# Instruções para entregar seu projeto
-
-## Antes de começar a desenvolver
-
-1. Clone o repositório
-
-- `git clone https://github.com/tryber/sd-09-store-manager.git`.
-- Entre na pasta do repositório que você acabou de clonar:
-  - `cd sd-09-store-manager`
-
-2. Instale as dependências [**Caso existam**]
-
-- `npm install`
-
-Atenção :warning: Não rode o comando npm audit fix! Ele atualiza várias dependências do projeto, e essa atualização gera conflitos com o avaliador.
-
-3. Crie uma branch a partir da branch `master`
-
-- Verifique que você está na branch `master`
-  - Exemplo: `git branch`
-- Se não estiver, mude para a branch `master`
-  - Exemplo: `git checkout master`
-- Agora crie uma branch à qual você vai submeter os `commits` do seu projeto
-  - Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
-  - Exemplo: `git checkout -b joaozinho-sd-09-store-manager`
-
-4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-
-- Verifique que as mudanças ainda não estão no _stage_
-  - Exemplo: `git status` (deve aparecer listada a pasta _joaozinho_ em vermelho)
-- Adicione o novo arquivo ao _stage_ do Git
-  - Exemplo:
-    - `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-    - `git status` (deve aparecer listado o arquivo _joaozinho/README.md_ em verde)
-- Faça o `commit` inicial
-  - Exemplo:
-    - `git commit -m 'iniciando o projeto x'` (fazendo o primeiro commit)
-    - `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-5. Adicione a sua branch com o novo `commit` ao repositório remoto
-
-- Usando o exemplo anterior: `git push -u origin joaozinho-sd-09-store-manager`
-
-6. Crie um novo `Pull Request` _(PR)_
-
-- Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-09-store-manager/pulls)
-- Clique no botão verde _"New pull request"_
-- Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-- Clique no botão verde _"Create pull request"_
-- Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
-- **Não se preocupe em preencher mais nada por enquanto!**
-- Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-09-store-manager/pulls) e confira que o seu _Pull Request_ está criado
 
 ---
 
@@ -231,13 +151,6 @@ A conexão do banco local deverá conter os seguintes parâmetros:
 
 ```javascript
 const MONGO_DB_URL = 'mongodb://localhost:27017/StoreManager';
-const DB_NAME = 'StoreManager';
-```
-
-Para o avaliador funcionar altere a conexão do banco para:
-
-```javascript
-const MONGO_DB_URL = 'mongodb://mongodb:27017/StoreManager';
 const DB_NAME = 'StoreManager';
 ```
 
