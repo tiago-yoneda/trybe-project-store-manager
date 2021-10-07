@@ -7,7 +7,7 @@ Projeto realizado durante módulo de back-end do curso da Trybe.
 
 - [Habilidades](#habilidades)
 - [Como utilizar este projeto](#como-utilizar-este-projeto)
-  - [Configuração Inicial](#ocnfiguração-inicial)
+  - [Configuração Inicial](#configuração-inicial)
 - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
   - [Desenvolvimento](#desenvolvimento)
   - [Durante o desenvolvimento](#durante-o-desenvolvimento)
