@@ -70,9 +70,9 @@ Nesse projeto, você será capaz de:
 
   Existem duas rotas nessa API e ambas contam com as operações de CRUD. As rotas são `/products` e `/sales`
   ### Operações de CRUD na rota `/products`
-  - POST - é efetuado na rota `/`. É necessário que a requisição seja feita passando um objeto JSON no body, com as chaves 'name' e 'quantity' do produto que você deseja adicionar. (O id é gerado automaticamente)
-  - GET - pode ser efetuado na rota `/` ou utilizando um id (`/id`) do produto desejado, vale lembrar que o ID em questão é no formado utilizado pelo MongoDB então ele tem a seguinte aparência `60e91112fa67752d069f0f6c`
-  - PUT - utilizado exclusivamente utilizando o id com a rota `/id` e deve-se passar no body um JSON com o novo 'name' ou 'quantity' do produto escolhido.
+  - POST - é utilizado na rota `/`. É necessário que a requisição seja feita passando um objeto JSON no body, com as chaves 'name' e 'quantity' do produto que você deseja adicionar. (O id é gerado automaticamente)
+  - GET - pode ser efetuado na rota `/` ou utilizando um id (`/id`) do produto desejado, vale lembrar que o ID em questão é no formato utilizado pelo MongoDB então ele tem a seguinte aparência `60e91112fa67752d069f0f6c`
+  - PUT - utilizado exclusivamente com o id com na rota `/id` e deve-se passar no body um JSON com o novo 'name' ou 'quantity' do produto escolhido.
   - DELETE - como no método anterior, precisamos utilizar a rota `/id` para retirarmos um produto do nosso banco de dados. Aqui não é necessário nenhum body.
   ### Operações de CRUD na rota `/sales`
   - POST - Utilizando a rota `/` e passando um JSON com um array de objetos, sendo que cada objeto tem que ter as chaves 'productId' e 'quantity', vale lembrar que o 'productId' precisa ser um produto já cadastrado.(o id também é gerado automaticamente)
