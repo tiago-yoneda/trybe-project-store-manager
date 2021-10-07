@@ -7,6 +7,7 @@ Projeto realizado durante módulo de back-end do curso da Trybe.
 
 - [Habilidades](#habilidades)
 - [Como utilizar este projeto](#como-utilizar-este-projeto)
+  - [Configuração Inicial](#ocnfiguração-inicial)
 - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
   - [Desenvolvimento](#desenvolvimento)
   - [Durante o desenvolvimento](#durante-o-desenvolvimento)
@@ -53,6 +54,12 @@ Nesse projeto, você será capaz de:
 ---
 
 # Como utilizar este projeto
+
+## Configuração inicial
+ - Após clonar o repositório rodar o comando `npm i` para instalar todas as dependências
+ - Tenha uma instancia do banco de dados MongoDB rodando em sua máquina
+ - no arquivo ./models/connection.js configurar o `MONGO_DB_URL` para o endereço da sua instancia do mongodb.
+
 
 ---
 # O que deverá ser desenvolvido
