@@ -5,12 +5,10 @@ const OPTIONS = {
   useUnifiedTopology: true,
 };
 
-// para uso local
-// const MONGO_DB_URL = 'mongodb://localhost:27017/StoreManager';
+// modificar aqui se necessário
+const MONGO_DB_URL = 'mongodb://localhost:27017/StoreManager';
 
-// para fazer o push
-const MONGO_DB_URL = 'mongodb://mongodb:27017/StoreManager';
-
+// esse é o nome do banco de dados utilizado neste projeto
 const DB_NAME = 'StoreManager';
 
 let db = null;
