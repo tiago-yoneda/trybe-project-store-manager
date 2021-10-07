@@ -1,7 +1,7 @@
 # Aviso
 Projeto realizado durante módulo de back-end do curso da Trybe.
 
-Uma simples API para o cadastro de produtos e vendas, com CRUD.
+Uma simples API para o cadastro de produtos e vendas, com CRUD. Utilizando NodeJS, express e MongoDB.
 
 Tem também testes unitários, feitos com Sinon e Chai, das camadas de MVC. Os testes encontram-se na pasta `./test/unit/`
 
