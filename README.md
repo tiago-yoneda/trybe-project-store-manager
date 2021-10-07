@@ -6,10 +6,15 @@ Uma simples API para o cadastro de produtos e vendas, com CRUD.
 Tem também testes unitários, feitos com Sinon e Chai, das camadas de MVC. Os testes encontram-se na pasta `./test/unit/`
 
 ---
+# Trybe Projeto Store Manager
+## Demo video
+
+[![Store Manager Demo](https://img.youtube.com/vi/p8GuEGWpW4k/0.jpg)](https://www.youtube.com/watch?v=p8GuEGWpW4k)
 
 # Sumário
 
 - [Aviso](#aviso)
+- [Trybe Projeto Store Manager](#trybe-projeto-store-manager)
 - [Habilidades](#habilidades)
 - [Como utilizar este projeto](#como-utilizar-este-projeto)
   - [Configuração Inicial](#configuração-inicial)
